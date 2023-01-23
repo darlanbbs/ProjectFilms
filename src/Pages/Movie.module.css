@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.leftSide,.rightSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.rightSide p{
+    font-weight: bold;
+    font-size: 23px;
+    color: #fff;
+}
+.tagline{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+.title{
+    font-size: 60px;
+    font-weight: 700;
+    color: gold;
+}
+.budget,.revenue,.duration{
+    color: #fff;
+}
+
+@media (max-width:1000px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightSide p{
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+    }
+    .tagline{
+        font-size: 25px;
+        font-weight: 700;
+        color: #fff;
+    }
+    .title{
+        font-size: 30px;
+        font-weight: 700;
+        color: gold;
+    }
+}

@@ -1,0 +1,21 @@
+.container,.container_fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.filterType{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    gap: 10px;
+}
+
+.filterType span{
+    color: gold;
+}
