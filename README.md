@@ -15,7 +15,7 @@ The Project ProjectFilms is a challange to improve the techniques in Reactjs and
 
 - This will copy all the files from this repo down to your computer
 
-- Type npm install to install all dependencies
+- Type Yarn to install all dependencies
 
 - Create a file .env and type:
 
@@ -24,15 +24,4 @@ The Project ProjectFilms is a challange to improve the techniques in Reactjs and
   - VITE_SEARCH=https://api.themoviedb.org/3/search/movie/ <br>
   - VITE_IMG=https://image.tmdb.org/t/p/w500/
 
-
-
 - Last, but not least, type npm start to run the app locally.
-
-# Depedencies 
-
-- React layout 
-  - Install: `npm install reactstrap react react-dom`
-  - Install: `npm install --save bootstrap`
-
-- React Router
-  - Install: `npm install React-router-dom`
