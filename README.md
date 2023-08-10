@@ -19,7 +19,7 @@ The Project ProjectFilms is a challange to improve the techniques in Reactjs and
 
 - Create a file .env and type:
 
-  - VITE_API_KEY=api_key=8ed200f50a6942ca5bc8b5cdec27ff22 <br>
+  - VITE_API_KEY=(Your API KEY) <br>
   - VITE_API=https://api.themoviedb.org/3/movie/<br>
   - VITE_SEARCH=https://api.themoviedb.org/3/search/movie/ <br>
   - VITE_IMG=https://image.tmdb.org/t/p/w500/
